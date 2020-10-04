@@ -1,0 +1,6 @@
+{
+  "roots": ["./dst"],
+  "testRegex": [
+    ".test.js$"
+  ]
+}

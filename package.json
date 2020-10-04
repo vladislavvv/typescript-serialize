@@ -1,0 +1,22 @@
+{
+  "name": "typescript-serialize",
+  "version": "0.0.1",
+  "description": "serialisation library",
+  "main": "dst/index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "node dst/index.js",
+    "bs": "npm run tsc && npm run start",
+    "test": "tsc && tsc -p tsconfig.tests.json && jest --config jest.config.json"
+  },
+  "author": "vladislavvv <vladislav713@yandex.ru",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "@types/node": "^14.11.2",
+    "jest": "^26.4.2"
+  }
+}
